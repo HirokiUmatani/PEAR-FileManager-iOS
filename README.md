@@ -4,10 +4,6 @@
 ### Overview
 This is the ios library to manipulate directories and files in application.
 
-### Description
-
-### Demo
-
 ### Licence
 [MIT](https://github.com/HirokiUmatani/PEARFileManager/blob/master/LICENSE)
 
