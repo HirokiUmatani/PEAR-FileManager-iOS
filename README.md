@@ -1,4 +1,4 @@
-### PEARFileManager [![GitHub license](https://img.shields.io/badge/LICENSE-MIT%20LICENSE-blue.svg)](https://github.com/HirokiUmatani/PEAR-FileManager-iOS/LICENSE) [![CocoaPods](https://img.shields.io/badge/platform-ios-lightgrey.svg)](https://cocoapods.org/pods/PEAR-FileManager-iOS) [![CocoaPods](https://img.shields.io/cocoapods/v/PEAR-FileManager-iOS.svg)](https://cocoapods.org/pods/PEAR-FileManager-iOS)  
+### PEAR-FileManager-iOS [![GitHub license](https://img.shields.io/badge/LICENSE-MIT%20LICENSE-blue.svg)](https://github.com/HirokiUmatani/PEAR-FileManager-iOS/LICENSE) [![CocoaPods](https://img.shields.io/badge/platform-ios-lightgrey.svg)](https://cocoapods.org/pods/PEAR-FileManager-iOS) [![CocoaPods](https://img.shields.io/cocoapods/v/PEAR-FileManager-iOS.svg)](https://cocoapods.org/pods/PEAR-FileManager-iOS)  
 
 ====
 ### Overview
@@ -10,7 +10,7 @@ pod 'PEAR-FileManager-iOS'
 </code>
 
 ### Documents
-[library document](http://cocoadocs.org/docsets/PEARFileManager/0.0.1/Classes/PEAR-FileManager-iOS.html)
+[library document](http://cocoadocs.org/docsets/PEAR-FileManager-iOS)
 
 ### Licence
 [MIT](https://github.com/HirokiUmatani/PEAR-FileManager-iOS/blob/master/LICENSE)
