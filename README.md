@@ -4,6 +4,11 @@
 ### Overview
 This is the ios library to manipulate directories and files in application.
 
+### Installation
+<code>
+pod 'PEARFileManager'
+</code>
+
 ### Documents
 [library document](http://cocoadocs.org/docsets/PEARFileManager/0.0.1/Classes/PEARFileManager.html)
 
