@@ -139,7 +139,7 @@ static PEARFileManager *_sharedInstatnce = nil;
 #pragma mark - fetch
 - (NSData *)fetchFileDataWithPath:(NSString *)path
 {
-    if ([self checkPath:path])
+    if (![self checkPath:path])
     {
         NSLog(@"The path dose not exists");
         return nil;

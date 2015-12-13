@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
    s.name         = "PEAR-FileManager-iOS"
-   s.version      = "1.0.1"
+   s.version      = "1.1.0"
    s.platform     = 'ios','7.0'
    s.homepage     = 'https://github.com/HirokiUmatani'
    s.license      = "MIT"
