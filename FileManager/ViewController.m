@@ -35,6 +35,12 @@
     
     NSLog(@"\nIt's home directory path of this application.\ncopy and paste the text below at the Terminal.app.\n****************************\nopen %@",[fileManager getRootDirectoryPath]);
 
+    NSArray *filenames = [fileManager fetchFileNameListsWithDirPath:[fileManager getRootDirectoryPath]];
+    for (NSString *fileName in filenames)
+    {
+        NSLog(@"\n └ %@",fileName);
+    }
+    
     // create new directory
     [fileManager createDirectory:DIR_PATH permisson:PERMISSION];
     

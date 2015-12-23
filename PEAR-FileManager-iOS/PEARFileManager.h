@@ -64,6 +64,11 @@ typedef NS_ENUM(NSInteger,ROOT_DIR_TYPE)
 - (NSData *)fetchFileDataWithPath:(NSString *)path;
 
 /**
+ fetch file Names
+ */
+- (NSArray *)fetchFileNameListsWithDirPath:(NSString *)dirPath;
+
+/**
  check file or directory
  */
 - (BOOL)checkPath:(NSString *)path;

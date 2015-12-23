@@ -48,7 +48,7 @@ static PEARFileManager *_sharedInstatnce = nil;
     return self;
 }
 
-#pragma mark - set root directory
+#pragma mark - root directory
 - (void)setRootDirectory:(ROOT_DIR_TYPE)rootType
 {
     switch (rootType)
@@ -150,6 +150,11 @@ static PEARFileManager *_sharedInstatnce = nil;
         return nil;
     }
     return [[NSFileManager new] contentsAtPath:[self joinFileName:path inDirPath:_rootPath]];
+}
+
+- (NSArray *)fetchFileNameListsWithDirPath:(NSString *)dirPath
+{
+    return [[NSFileManager defaultManager] contentsOfDirectoryAtPath:dirPath error:nil];
 }
 
 #pragma mark - check
