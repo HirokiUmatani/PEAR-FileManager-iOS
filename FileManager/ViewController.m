@@ -16,7 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"\nIt's home directory path of this application.\ncopy and paste the text below at the Terminal.app.\n****************************\nopen %@",NSHomeDirectory());
     
     
     // sample data
@@ -31,9 +30,11 @@
     
     // Initialize
     PEARFileManager *fileManager = [PEARFileManager sharedInstatnce];
-    fileManager.rootDir = k_ROOT_DIR_LIBRARY;
+    [fileManager setRootDir:k_ROOT_DIR_LIBRARY];
 
     
+    NSLog(@"\nIt's home directory path of this application.\ncopy and paste the text below at the Terminal.app.\n****************************\nopen %@",[fileManager getRootDirectoryPath]);
+
     // create new directory
     [fileManager createDirectory:DIR_PATH permisson:PERMISSION];
     
@@ -54,7 +55,6 @@
     // move directory
     [fileManager moveFromPath:DIR_PATH
                        toPath:MOVE_DIR_PATH];
-    
     
 }
 

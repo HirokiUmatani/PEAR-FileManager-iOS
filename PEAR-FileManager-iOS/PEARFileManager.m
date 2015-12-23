@@ -71,6 +71,11 @@ static PEARFileManager *_sharedInstatnce = nil;
     }
 }
 
+- (NSString *)getRootDirectoryPath
+{
+    return _rootPath;
+}
+
 #pragma mark - create
 - (BOOL)createDirectory:(NSString *)dirPath
               permisson:(NSNumber *)permission
