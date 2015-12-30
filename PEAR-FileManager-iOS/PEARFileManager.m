@@ -185,6 +185,7 @@ static PEARFileManager *_sharedInstatnce = nil;
     if ([self checkPath:toPath])
     {
         NSLog(@"The path already exists");
+        return NO;
     }
 
     return [[NSFileManager new] moveItemAtPath:[self joinFileName:fromPath inDirPath:_rootPath]
@@ -202,6 +203,7 @@ static PEARFileManager *_sharedInstatnce = nil;
     if ([self checkPath:toPath])
     {
         NSLog(@"The path already exists");
+        return NO;
     }
     
    return [[NSFileManager new] copyItemAtPath:[self joinFileName:fromPath inDirPath:_rootPath]
